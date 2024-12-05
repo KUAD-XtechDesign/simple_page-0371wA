@@ -2,7 +2,7 @@ body{
   font-family: "Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
   margin: 0;
   padding: 20px;
-  background-color: #ddd;
+  background-color: rgb(0, 0, 0);
   line-height: 1.8;
 }
 
@@ -19,12 +19,12 @@ img{
 }
 
 .wrapper{
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
-  background-color: #fff;
+  background-color: #000000;
   padding: 10px;
   border-radius: 5px;
-  box-shadow: 0 0 10px 0px rgba(0,0,0,0.2);
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.2);
 }
 
 #namecard{
@@ -38,6 +38,7 @@ h1.name{
   font-size: 20px;
   padding-left: 10px;
   margin-bottom: 10px;
+  color:white
 }
 
 /* 経歴部分 */
@@ -49,12 +50,13 @@ h2.title{
 
 .profile{
   padding: 10px;
+  color:rgb(248, 248, 248)
 }
 
 ul.history_list li{
   list-style: none;
   display: flex;
-  border-bottom: 1px dotted #ccc;/* 下線の点線 */
+  border-bottom: 1px dotted rgb(0, 0, 0);/* 下線の点線 */
   margin-bottom: 1em;
   padding-bottom: 0.2em;
 }
@@ -67,3 +69,6 @@ div.year{
   width: 5em;
 }
 
+a{
+  color:tomato
+}
